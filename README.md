@@ -7,7 +7,7 @@
 
 Caavon.com is an e-commerce website for Perspective clothing. It will give customers a simple way to browse clothing and shop online.
 
-## WHO — Who is it for?
+## Who is it for?
 
 **User story:**  
 As a Perspective clothing customer, I want to browse clothing and add items to my cart, so I can shop online and return when I’m ready to continue.
@@ -18,14 +18,14 @@ People interested in buying Perspective clothing online who want an easy shoppin
 **Team roles:**  
 Team members will choose and divide project responsibilities.
 
-## WHY — Why build it?
+## Why build it?
 
 Customers need a clear place to view the clothing collection and choose products.
 
 **Value proposition:**  
 Caavon.com gives Perspective customers a simple way to browse clothing and begin an order in one place.
 
-## WHAT ALREADY EXISTS — Similar stores
+## Similar Apps
 
 These stores can help the team compare clothing categories, product details, and shopping steps. Review each site and note what works well, what could be better, and what Caavon.com could learn from it.
 
@@ -39,13 +39,13 @@ These stores can help the team compare clothing categories, product details, and
 
 These are examples to research. The team should add its own observations after reviewing them.
 
-## DONE — What success looks like at KILO
+## What Our End Goal Will Look Like
 
 > At KILO, we should be able to show a customer how to browse clothing, view product details, add an item to the cart, and review the cart on a phone or computer.
 
 Checkout should be included in this test only if it is part of the project scope.
 
-## PLAN — How we’ll get there
+## How We'll Get There
 
 **Starting point:**  
 The project is planned as a clothing e-commerce website. The team still needs to confirm what code, designs, products, and hosting are already available.
