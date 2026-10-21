@@ -1,89 +1,101 @@
-INDIA --- Product Proposal + Project System
-INDIA is not just a proposal document.
+# Caavon.com
 
-Find somebody worth building for, understand the landscape, define what success means, and build the project system that will help you get there.
+## A Study in Simplicity
 
-Before completing INDIA, work through Product Discovery.
+**Project proposal and plan**  
+**Team:** Saimon Hasan, Anthony Guerrero, and Sean Clary
 
-INDIA answers six questions
-WHO? → WHY? → WHAT ALREADY EXISTS? → WHAT DOES DONE LOOK LIKE? → HOW WILL WE GET THERE? → WHAT COULD THIS BECOME?
+Caavon.com is an e-commerce website for Perspective clothing. It will give customers a simple way to browse clothing and shop online.
 
-Artifact: docs/india.md or Wiki equivalent
-Keep it succinct.
+## WHO — Who is it for?
 
-WHO --- user + project
-Project --- name + one-line pitch
-Team --- members + initial roles/areas
-User story --- As a ___, I want ___, so that ___
-Specific user/audience --- who exactly are you building for?
+**User story:**  
+As a Perspective clothing customer, I want to browse clothing and add items to my cart, so I can shop online and return when I’m ready to continue.
 
-WHY --- problem + value
-Problem / opportunity --- what are you trying to improve, create, or learn?
-Value proposition --- why should this exist for this user?
+**Target audience:**  
+People interested in buying Perspective clothing online who want an easy shopping experience on a phone or computer.
 
-For [specific user], our application [creates this value] because [reason it is useful/different/better].
+**Team roles:**  
+Team members will choose and divide project responsibilities.
 
-WHAT ALREADY EXISTS --- landscape
-Investigate approximately 3--5 meaningful existing products, apps, competitors, adjacent solutions, or current/manual approaches when possible.
+## WHY — Why build it?
 
-what is good? | what is bad/missing? | what functionality matters? | what can we borrow/avoid? | why build another one?
+Customers need a clear place to view the clothing collection and choose products.
 
-Look for useful functionality/technology clues:
+**Value proposition:**  
+Caavon.com gives Perspective customers a simple way to browse clothing and begin an order in one place.
 
-mobile | MFA/OAuth | notifications | camera | location | AI | sharing | offline | payments | integrations | privacy
+## WHAT ALREADY EXISTS — Similar stores
 
-Link to products/sources when useful. Distinguish observed/documented facts from guesses about internal technology.
+These stores can help the team compare clothing categories, product details, and shopping steps. Review each site and note what works well, what could be better, and what Caavon.com could learn from it.
 
-DONE --- your KILO success test
-Define what done enough means for this project.
+| Store | Website | What to look at |
+|---|---|---|
+| ASOS | [asos.com](https://www.asos.com/us/) | Finding products in a large selection |
+| UNIQLO | [uniqlo.com](https://www.uniqlo.com/us/en/) | Product details and shopping options |
+| Zara | [zara.com](https://www.zara.com/us/) | Clothing collections and product images |
+| H&M | [hm.com](https://www2.hm.com/en_us/index.html) | Categories and new arrivals |
+| Gap | [gap.com](https://www.gap.com/) | Clothing categories and featured products |
 
-At KILO, we should be able to demonstrate that...
+These are examples to research. The team should add its own observations after reviewing them.
 
-Make this user-centered rather than merely technical. Your definition may change as you learn; document the change.
+## DONE — What success looks like at KILO
 
-PLAN --- project system
-Starting point --- what already exists?
-Direction --- what do you hope the product becomes by KILO?
-Capabilities --- three initial capability directions; these may change
-Biggest unknowns --- what do you currently not know how to do?
-Project links --- backlog, milestones, DEV, production if available
+> At KILO, we should be able to show a customer how to browse clothing, view product details, add an item to the cart, and review the cart on a phone or computer.
 
-Then create the actual planning system in GitHub.
+Checkout should be included in this test only if it is part of the project scope.
 
-Create your own GitHub Milestones
-Do not simply create milestones named INDIA/JULIETT/KILO. Those are course milestones.
+## PLAN — How we’ll get there
 
-Create stages meaningful to your project.
+**Starting point:**  
+The project is planned as a clothing e-commerce website. The team still needs to confirm what code, designs, products, and hosting are already available.
 
-Playable Core → Real-World Birding → User Testing → Demo Ready → Release 1.0
+**Three initial capabilities:**
 
-or:
+1. Show clothing products by category.
+2. Let customers view product details such as price, size, and color.
+3. Let customers add items to a cart and review their selections.
 
-Storefront → Accounts + Cart → Checkout → Client Testing → Production
+**Biggest questions:**
 
-Populate the backlog
-Create enough Issues that another person can understand how you currently expect the project to unfold.
+- What products and clothing categories will the site include?
+- Is checkout part of the project?
+- What tools and hosting will the team use?
+- What do customers need to know before choosing a product?
 
-Use meaningful Issues, labels, assignees, priorities, and milestones. There is no magic required number.
+### Project links
 
-Research/discovery should create work when appropriate:
+| Link | URL | What it’s for |
+|---|---|---|
+| Website | [caavon.com](https://caavon.com) | Customer-facing store; confirm this is the correct live URL |
+| GitHub repository | `[Add URL]` | Project code and files |
+| Project board | `[Add URL]` | Tasks, issues, and milestones |
+| Development site | `[Add URL when available]` | Version used for testing |
+| Design or prototype | `[Add URL if available]` | Mockups and layout plans |
 
-discover need → research Issue → decision → feature/implementation Issue
+### Suggested milestones
 
-Your backlog will be wrong. Good.
+1. **Storefront Foundation** — Decide the audience, products, and page layout.
+2. **Catalog and Product Pages** — Build the product list and details pages.
+3. **Cart** — Let customers add and review items.
+4. **Customer Testing** — Ask someone to try the shopping flow and record feedback.
+5. **Demo Ready** — Fix the main problems and prepare the project demonstration.
 
-Issues may be added, split, rewritten, reprioritized, reassigned, moved between milestones, or closed without implementation as you learn.
+### First backlog tasks
 
-INDIA plan → development → JULIETT feedback → backlog changes → KILO
+- Research clothing customers and their shopping needs.
+- Review similar clothing stores and record findings.
+- Choose the products and details the site will show.
+- Sketch the home, catalog, product, and cart pages.
+- Build and test the shopping flow.
 
-SPRING 99 --- future
-Briefly describe where the product could go after KILO.
+## SPRING 99 — What could come next?
 
-next users | next features | next platform | next scale
+After KILO, Caavon.com could add customer accounts, saved items, checkout, order updates, or more clothing categories. The team should choose future features based on customer feedback.
 
-Start specific now; design so the idea can grow later.
+## Course links
 
-INDIA check
-WHO | WHY/value | existing landscape | definition of done | SPRING 99 | useful milestones | populated backlog | labels | assignees/priorities | initial capabilities | DEV pathway
-
-← START HERE | Product Discovery | Issues + Labels | JULIETT →
+- [Start Here](https://barrycumbie.com/assets/capstone/index.html#00-START-HERE.md)
+- [Product Discovery](https://barrycumbie.com/assets/capstone/index.html#project/product-discovery.md)
+- [Issues, Labels, and Milestones](https://barrycumbie.com/assets/capstone/index.html#pm/issues-labels-milestones.md)
+- [JULIETT](https://barrycumbie.com/assets/capstone/index.html#milestones/juliett.md)
